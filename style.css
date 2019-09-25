@@ -74,18 +74,21 @@ body {
 
 /* Form */
 
-#main-form input[type=text] {
-  padding: 0.8rem;
+#main-form .search {
+  padding: 14px 50px;
   border: 1px solid #ddd;
   border-radius: 24px;
   outline: none;
   width: 35rem;
+  font-size: 16px;
 }
 
-#main-form input[type=text]:hover, #main-form input[type=text]:focus {
+#main-form .search:hover, #main-form .search:focus {
   box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
   border-color: rgba(255, 255, 255, 0);
 }
+
+
 
 /* Form buttons */
 
@@ -121,6 +124,23 @@ body {
 
 .availability {
   font-size: 13px;
+}
+
+#main-form .lens, #main-form .mic {
+  width: 30px;
+  height: auto;
+  position: relative;  
+  top: 14px;
+}
+
+#main-form .lens {
+  left: 48px;
+}
+
+#main-form .mic {
+  width: 24px;
+  right: 44px;
+  top: 8px;
 }
 
 
