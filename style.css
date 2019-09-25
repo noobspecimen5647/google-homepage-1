@@ -1,0 +1,153 @@
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;  
+}
+
+/* Header */
+
+#header {
+  width: 100%;
+  height: 100px;
+}
+
+.navigation {
+  min-height: 30px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  font-size: 0.85rem;
+  margin-right: 2rem;     
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #2d2d2d;
+  padding: 10px;
+}
+
+.navigation a.txt-link:hover {
+  text-decoration: underline;
+}
+
+.navigation a img {
+  display: inline;
+}
+
+.navigation .sign-in-button {
+  background: #4683ec;
+  border-radius: 5%;
+  color: #fff;
+  font-weight: 800;
+  width: 3.5rem;
+  height: 0.8rem;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main */
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+#container img {
+  width: 272px;
+  height: auto;
+}
+
+#container > * {
+  margin-top: 20px;
+}
+
+/* Form */
+
+#main-form input[type=text] {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  outline: none;
+  width: 35rem;
+}
+
+#main-form input[type=text]:hover, #main-form input[type=text]:focus {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+/* Form buttons */
+
+.buttons-grp {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.buttons-grp input {
+  border: 1px solid #fff;
+  padding: 0.8rem;
+  background: #f8f8f8;
+  border-radius: 4px;
+  color: #5F6368;
+  font-size: 14px;
+}
+
+.buttons-grp input:nth-child(2) {
+  margin-left: 20px;
+}
+
+.buttons-grp input:hover {
+  border: 1px solid #555;
+  background: #f1f1f1;
+  color: #222;
+}
+
+/* Form -- more */
+
+.availability {
+  font-size: 13px;
+}
+
+
+/* Footer */ 
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  min-width: 980px;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 13px;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #5f6368;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
